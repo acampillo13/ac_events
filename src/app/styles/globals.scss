@@ -2,6 +2,7 @@
 @use '../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
 
 // Base
+@use './base/reset';
 @use './base/variables';
 @use './base/mixins';
 
@@ -9,3 +10,5 @@
 @use './layout';
 
 // Components
+@use './components/button';
+@use './components/hero';
